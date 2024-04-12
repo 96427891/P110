@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand gestures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Hand gestures</h1>
+        <br>
+        <br>
+        <span>&#9994;</span>
+        <span>&#9996;</span>
+        <span>&#128076;</span>
+        <span>&#128077;</span>
+        <span>&#9995;</span>
+        <br>
+
+        <h2>This model is trained on the above hand gestures:</h2>
+        <br>
+        <br>
+<h2>Take a picture of you doing a hand gesture. The system will identify it.</h2>
+        <div id="webcamera"></div>
+        <br>
+
+        <button onclick="capture()" class="btn btn-success">Capture Image</button>
+        <div id="captured_img"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <button onclick="identify()" class="btn btn-warning">Identify Image</button>
+    </center>
+</body>
+<script src="main.js"></script>
+
+</html>
